@@ -1,0 +1,63 @@
+.homepage  { 
+    color: black;
+}
+.overview .box { 
+    height: 150px;
+    width: 50%;
+    background-color: #968d8d;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.overview .box1 { 
+    margin-top: 30px
+}
+
+
+
+
+.back {
+    background: #e2e2e2;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/sun.jpeg");
+   /* Full height */
+   height: 100%; 
+  
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  
+  .div-center {
+    width: 400px;
+    height: 315px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 1em 2em;
+    border-bottom: 2px solid #ccc;
+    display: table;
+    border-radius: 10px;
+  }
+  
+  .content {
+    text-align: center;
+    justify-content: center;
+    display: block;
+  }
+  
+  .content input { 
+    margin: 10px;
+    padding: 5px;
+  }
